@@ -32,6 +32,7 @@ body.no-scroll {
   left: 0;
   z-index: 1000;
   backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
   width: 100%;
   height: 100%;
   transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
@@ -40,6 +41,7 @@ body.no-scroll {
 .blur.active {
   visibility: visible;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .menu {
@@ -473,4 +475,10 @@ section.shop img {
   z-index: -1;
   padding: 25px;
   padding-top: 0;
+}
+
+@media (max-width: 1000px) {
+  section.shop {
+    aspect-ratio: 3 / 4;
+  }
 }
