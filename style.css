@@ -177,14 +177,12 @@ nav ul li a {
 }
 
 header nav ul li a svg {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: black;
 }
 
 header.top nav ul li a svg {
-  width: 20px;
-  height: 20px;
   fill: white;
 }
 
