@@ -263,7 +263,7 @@ nav svg.top path.interior:hover {
 
   .menu ul li a svg{
     opacity: 1;
-    margin-right: 15px;
+    margin-right: 12px;
   }
   .menu ul li a{
     display: flex;
