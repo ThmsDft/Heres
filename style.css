@@ -422,6 +422,10 @@ section.links ul li img {
     grid-template-columns: 1fr;
   }
 
+  section.links ul li > div div {
+    position: initial;
+  }
+
   section.links ul li > div div h2 {
     font-size: 20px;
   }
@@ -498,6 +502,10 @@ section.shop img {
 @media (max-width: 1000px) {
   section.shop {
     aspect-ratio: 3 / 4;
+  }
+
+  section.shop > div div {
+    position: initial;
   }
 
   section.shop > div div h2 {
