@@ -232,7 +232,7 @@ nav svg.top path.letter {
 }
 
 nav svg.top path.interior {
-  fill: #ac9b703f;
+  fill: #ac9b706c;
 }
 
 nav svg.top path.interior:hover {
@@ -303,6 +303,7 @@ section.home img {
   object-position: top;
   transform: scale(1.2);
   transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+  filter: brightness(50%)
 }
 
 section.home img.animation {
