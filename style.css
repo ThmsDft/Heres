@@ -77,7 +77,7 @@ body.no-scroll {
 .menu ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   color: black;
   font-size: large;
   font-weight: 700;
@@ -241,20 +241,11 @@ nav svg.top path.interior:hover {
 
 @media (max-width: 1000px) {
   .menu {
-    background-color: white;
-    position: fixed;
     top: initial;
     right: 0;
     bottom: -100%;
-    z-index: 1000;
-    width: 100%;
-    max-width: 500px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
     padding: 20px;
-    padding-left: 80px;
+    padding-left: 20px;
     width: 100%;
     max-width: none;
   }
@@ -262,6 +253,16 @@ nav svg.top path.interior:hover {
   .menu.active {
     bottom: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+  }
+
+  .menu ul li a svg{
+    opacity: 1;
+    margin-right: 15px;
+  }
+  .menu ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   nav {
