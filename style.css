@@ -334,13 +334,6 @@ section.home button.animation {
   opacity: 1;
 }
 
-/* main {
-  max-width: 1350px;
-  width: 100%;
-  margin-inline: auto;
-  padding: 20px 20px;
-} */
-
 section.links {
   width: 100%;
   padding: 25px;
@@ -417,6 +410,14 @@ section.links ul li img {
   section.links ul {
     grid-template-columns: 1fr;
   }
+
+  section.links ul li > div div h2 {
+    font-size: 20px;
+  }
+
+  section.links ul li > div div button {
+    font-size: x-small;
+  }
 }
 
 section.shop {
@@ -486,5 +487,13 @@ section.shop img {
 @media (max-width: 1000px) {
   section.shop {
     aspect-ratio: 3 / 4;
+  }
+
+  section.shop > div div h2 {
+    font-size: 20px;
+  }
+
+  section.shop > div div button {
+    font-size: x-small;
   }
 }
