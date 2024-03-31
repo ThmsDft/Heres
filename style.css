@@ -323,6 +323,12 @@ section.home button {
   transition: all 1s cubic-bezier(0.5, 0, 0, 1);
 }
 
+@media (max-width: 1000px) {
+  section.home button {
+    font-size: x-small;
+  }
+}
+
 section.home button.animation {
   bottom: 60px;
   opacity: 1;
