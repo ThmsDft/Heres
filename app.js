@@ -11,7 +11,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-let buttonRDV = document.querySelector("section.home button");
+let buttonRDV = document.querySelector("section.home a");
 setTimeout(function () {
   buttonRDV.classList.add("animation");
 }, 1500);
